@@ -1,0 +1,6 @@
+framework module PaymentGatewaysShivaKit {
+  umbrella header "PaymentGatewaysShivaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

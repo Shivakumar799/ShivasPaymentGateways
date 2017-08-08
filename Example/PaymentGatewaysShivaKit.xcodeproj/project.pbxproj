@@ -61,11 +61,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D5BD021D2DCAE5A7A7B3CE /* Pods_PaymentGatewaysShivaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentGatewaysShivaKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		911C0F51DFF71B03FDE1F7C4 /* Pods-PaymentGatewaysShivaKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentGatewaysShivaKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentGatewaysShivaKit_Tests/Pods-PaymentGatewaysShivaKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B7E538C10A7AE01E406E6BD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D2E74D3AA9BFE47C03A1C16F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B7E538C10A7AE01E406E6BD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D2E74D3AA9BFE47C03A1C16F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB15C8C4F2ADC07FB79428EA /* Pods-PaymentGatewaysShivaKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentGatewaysShivaKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentGatewaysShivaKit_Tests/Pods-PaymentGatewaysShivaKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2305FA66EEBA97E3D0FC785 /* Pods-PaymentGatewaysShivaKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentGatewaysShivaKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentGatewaysShivaKit_Example/Pods-PaymentGatewaysShivaKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F52A054FBC8B6B47994407D5 /* PaymentGatewaysShivaKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PaymentGatewaysShivaKit.podspec; path = ../PaymentGatewaysShivaKit.podspec; sourceTree = "<group>"; };
+		F52A054FBC8B6B47994407D5 /* PaymentGatewaysShivaKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PaymentGatewaysShivaKit.podspec; path = ../PaymentGatewaysShivaKit.podspec; sourceTree = "<group>"; };
 		FBD556211A9FD105357E2507 /* Pods_PaymentGatewaysShivaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentGatewaysShivaKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Shivakumar799;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RYJPVG7C33;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -352,11 +355,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PaymentGatewaysShivaKit_Example/Pods-PaymentGatewaysShivaKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PaymentGatewaysShivaKit/PaymentGatewaysShivaKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaymentGatewaysShivaKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFHpple.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,6 +536,7 @@
 			baseConfigurationReference = F2305FA66EEBA97E3D0FC785 /* Pods-PaymentGatewaysShivaKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYJPVG7C33;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PaymentGatewaysShivaKit/PaymentGatewaysShivaKit-Prefix.pch";
 				INFOPLIST_FILE = "PaymentGatewaysShivaKit/PaymentGatewaysShivaKit-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 48161EB5EE6A1BB701895375 /* Pods-PaymentGatewaysShivaKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYJPVG7C33;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PaymentGatewaysShivaKit/PaymentGatewaysShivaKit-Prefix.pch";
 				INFOPLIST_FILE = "PaymentGatewaysShivaKit/PaymentGatewaysShivaKit-Info.plist";
