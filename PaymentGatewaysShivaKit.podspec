@@ -38,8 +38,9 @@ A trial to acheive the payment gateways integration in a simpler manner
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#s.dependency 'AFNetworking', '~> 2.3'
 s.dependency 'OpenSSL'
 s.dependency 'TFHpple'
+
 
 end

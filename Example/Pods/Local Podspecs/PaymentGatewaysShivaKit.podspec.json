@@ -1,6 +1,6 @@
 {
   "name": "PaymentGatewaysShivaKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Simple Gateway",
   "description": "A trial to acheive the payment gateways integration in a simpler manner",
   "homepage": "https://github.com/Shivakumar799/ShivasPaymentGateways.git",
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/Shivakumar799/ShivasPaymentGateways.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PaymentGatewaysShivaKit/Classes/**/*"
+  "source_files": "PaymentGatewaysShivaKit/Classes/**/*",
+  "dependencies": {
+    "OpenSSL": [
+
+    ],
+    "TFHpple": [
+
+    ]
+  }
 }

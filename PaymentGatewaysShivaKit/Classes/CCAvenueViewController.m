@@ -13,7 +13,6 @@
 #import "AFURLRequestSerialization.h"
 
 @interface CCAvenueViewController ()<UIWebViewDelegate>
-@property (weak, nonatomic) UIWebView *ccAvenueWebView;
 
 @end
 
@@ -43,8 +42,6 @@ static CCAvenueViewController *singletonInstance = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    _ccAvenueWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     _ccAvenueWebView.delegate = self;
     
     

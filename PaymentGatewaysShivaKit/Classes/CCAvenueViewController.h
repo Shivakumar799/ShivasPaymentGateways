@@ -19,6 +19,7 @@
 
 
 @interface CCAvenueViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *ccAvenueWebView;
 
 +(CCAvenueViewController *)sharedInstance;
 

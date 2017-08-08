@@ -12,4 +12,6 @@ target 'PaymentGatewaysShivaKit_Example' do
   pod 'OpenSSL'
   
   pod 'TFHpple'
+  
+  pod 'AFNetworking', '~> 3.0'
 end
