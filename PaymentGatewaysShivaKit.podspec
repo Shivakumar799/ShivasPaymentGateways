@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PaymentGatewaysShivaKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple Gateway'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,7 @@ A trial to acheive the payment gateways integration in a simpler manner
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'OpenSSL'
+s.dependency 'TFHpple'
+
 end
