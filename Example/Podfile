@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PaymentGatewaysShivaKit_Example' do
+  pod 'PaymentGatewaysShivaKit', :path => '../'
+
+  target 'PaymentGatewaysShivaKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
