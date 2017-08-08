@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "504BD322A132B076C5FD6AA4B7A58E26E3E3A98E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "504BD322A132B076C5FD6AA4B7A58E26E3E3A98E" : 9223372036854775807,
+    "EF577C51C6EAA32AC8A89688D2FDC5415FF3AF7D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2D9CE363-E017-4701-8974-B2659A9B0D08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "504BD322A132B076C5FD6AA4B7A58E26E3E3A98E" : "PaymentGatewaysShivaKit\/",
+    "EF577C51C6EAA32AC8A89688D2FDC5415FF3AF7D" : "Documents\/Projects\/Table_New\/table-app-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PaymentGatewaysShivaKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PaymentGatewaysShivaKit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shivakumar799\/ShivasPaymentGateways.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "504BD322A132B076C5FD6AA4B7A58E26E3E3A98E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/kunalmehta_arhamlabs\/table-app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF577C51C6EAA32AC8A89688D2FDC5415FF3AF7D"
+    }
+  ]
+}
