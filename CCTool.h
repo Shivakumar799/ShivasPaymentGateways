@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef void(^ComplitionHandlerCCTool)(id response, NSError *error);
 
 @interface CCTool : NSObject
-- (NSString *)encryptRSA:(NSString *)raw key:(NSString *)pubKey;
+- (void)encryptRSA:(NSString *)raw key:(NSString *)pubKey withCompileHandler:(ComplitionHandlerCCTool)compileHandler;
 @end

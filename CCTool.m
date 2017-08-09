@@ -21,7 +21,8 @@
 
 @implementation CCTool
 
-- (NSString *)encryptRSA:(NSString *)raw key:(NSString *)pubKey {
+- (void)encryptRSA:(NSString *)raw key:(NSString *)pubKey withCompileHandler:(ComplitionHandlerCCTool)compileHandler
+{
     const char *p = (char *)[pubKey UTF8String];
     
     BIO *bufio;
@@ -40,7 +41,8 @@
     RSA_public_encrypt(plainTextLen, plainText, cipherText, rsa, RSA_PKCS1_PADDING);
     
     NSData *encrypted = [NSData dataWithBytes:cipherText length:cipherTextLen];
-    return [encrypted base64EncodedString];
+    compileHandler([encrypted base64EncodedString] , nil);
+    
 }
 
 @end

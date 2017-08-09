@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ComplitionHandler)(id response, NSError *error);
 
 @protocol PaymentDelegate <NSObject>
 
@@ -18,14 +19,13 @@
 
 
 
-@interface CCAvenueViewController : UIViewController
+@interface CCAvenueViewController : NSObject
+//@property (strong, nonatomic) UIWebView *ccAvenueWebView;
 
 +(CCAvenueViewController *)sharedInstance;
 
 #pragma  mark ParseData
--(NSMutableDictionary*)passParametersForCCAvenue:(NSString *)CCAvenueRSAURL accessCode:(NSString *)CCAVENUE_ACCESSCODE  transitionURL:(NSString *)CCAVENUE_TRANSITIONURL redirectURL:(NSString *)REDIRECT_URL merchantID:(NSString *)CCAVENUE_MERCHANTID orderId:(NSString *)OrderID currencyType:(NSString *)CURRENCY_TYPE amount:(NSString *)AMOUNT name:(NSString *)customer_name email:(NSString *)customer_email state:(NSString *)customer_state zipcode:(NSString *)customer_zipcode city:(NSString *)customer_city country:(NSString *)customer_country mobileNo:(NSString *)customer_MobileNum cancelURL:(NSString *)CANCEL_URL;
-
-
++(void)passParametersForCCAvenue:(NSString *)CCAvenueRSAURL accessCode:(NSString *)CCAVENUE_ACCESSCODE  transitionURL:(NSString *)CCAVENUE_TRANSITIONURL redirectURL:(NSString *)REDIRECT_URL merchantID:(NSString *)CCAVENUE_MERCHANTID orderId:(NSString *)OrderID currencyType:(NSString *)CURRENCY_TYPE amount:(NSString *)AMOUNT name:(NSString *)customer_name email:(NSString *)customer_email state:(NSString *)customer_state zipcode:(NSString *)customer_zipcode city:(NSString *)customer_city country:(NSString *)customer_country mobileNo:(NSString *)customer_MobileNum cancelURL:(NSString *)CANCEL_URL complitionHandler:(ComplitionHandler)complitionHandler;
 
 @property(nonatomic,strong) NSString *CCAvenueRSAURL;
 
